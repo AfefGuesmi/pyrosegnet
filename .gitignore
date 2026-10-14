@@ -1,0 +1,43 @@
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs
+outputs/checkpoints/*
+outputs/predictions/*
+outputs/figures/*
+outputs/results/*
+!outputs/checkpoints/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.hdf5
+*.h5
+*.pth
+*.pt
+*.ckpt
